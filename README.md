@@ -5,7 +5,7 @@ Cheatsheets and example scripts for IDAPython (7.x and 6.x).
 
 It looks like this:
 
-![IDAPython-7x](IDAPython-7x_cheatsheet_web_en.png)
+![IDAPython-7.x](IDAPython-7x_cheatsheet_web_en.png)
 
 ## Printable versions
 

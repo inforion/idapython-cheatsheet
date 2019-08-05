@@ -1,5 +1,4 @@
-''' Short and simple transformations in disasmbler view
-
+''' Short and simple transformations in disassembler view
 '''
 
 def make_offsets32(start_ea, end_ea):

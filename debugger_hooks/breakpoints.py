@@ -1,3 +1,5 @@
+''' Short IDAPython functions to work with breakpoints
+'''
 
 def set_python_bpt(ea, cond):
     ''' Set conditional breakpoint with Python function 

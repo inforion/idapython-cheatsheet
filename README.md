@@ -19,8 +19,20 @@ It looks like this:
 - [IDAPython 6.x cheatsheet (English)](https://github.com/inforion/idapython-cheatsheet/releases/download/v1.0/IDAPython_cheatsheet_print_en.png)
 - [IDAPython 6.x cheatsheet (Russian)](https://github.com/inforion/idapython-cheatsheet/releases/download/v1.0/IDAPython_cheatsheet_print_ru.png)
 
+## Tips & triks & examples
+
+### Debugger Hooks
+- Work with breakpoints [source code](https://github.com/inforion/idapython-cheatsheet/blob/master/debugger_hooks/breakpoints.py)
+
+### Listing 
+- Simple transformations in disassembler view [source code](https://github.com/inforion/idapython-cheatsheet/blob/master/listing/disasm_transform.py) 
+- Make comment to function, using it's argument [source code](https://github.com/inforion/idapython-cheatsheet/blob/master/listing/function_arguments.py) 
+
+### Miscellaneous
+- Parsing Global Descriptor Table (GDT, x86) [source code](https://github.com/inforion/idapython-cheatsheet/blob/master/misc/parse_gdt.py)
+- Parsing Interrupt Descriptor Table (IDT, x86) [source code](https://github.com/inforion/idapython-cheatsheet/blob/master/misc/parse_idt.py)
+
 ## Links
 
-- [The Beginner's Guide to IDAPython](https://leanpub.com/IDAPython-Book)
-
+- ["The Beginner's Guide to IDAPython" by Alexander Hanel](https://leanpub.com/IDAPython-Book)
   

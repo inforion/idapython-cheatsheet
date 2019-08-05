@@ -1,5 +1,4 @@
 ''' Make comment to function, using it's argument (using x86 mnemonics)
-
 '''
       
 def get_function_arg_value(addr):

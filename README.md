@@ -9,12 +9,17 @@ It looks like this:
 
 ## Printable versions
 
-### IDAPython 7.x
+### PDF
+- [English (IDA 6.x and 7.x)](https://github.com/inforion/idapython-cheatsheet/releases/download/pdf/IDAPython_cheat_sheet_.6x_7x._ENG.pdf)
+- [Russian (IDA 6.x and 7.x)](https://github.com/inforion/idapython-cheatsheet/releases/download/pdf/IDAPython_cheat_sheet_.6x_7x._RUS.pdf)
+
+
+### IDAPython 7.x (PNG)
 
 - [IDAPython 7.x cheatsheet (English)](https://github.com/inforion/idapython-cheatsheet/releases/download/7.x/IDAPython-7.x_cheatsheet_print_en.png)
 - [IDAPython 7.x cheatsheet (Russian)](https://github.com/inforion/idapython-cheatsheet/releases/download/7.x/IDAPython-7.x_cheatsheet_print_ru.png)
 
-### IDAPython 6.x
+### IDAPython 6.x (PNG)
 
 - [IDAPython 6.x cheatsheet (English)](https://github.com/inforion/idapython-cheatsheet/releases/download/v1.0/IDAPython_cheatsheet_print_en.png)
 - [IDAPython 6.x cheatsheet (Russian)](https://github.com/inforion/idapython-cheatsheet/releases/download/v1.0/IDAPython_cheatsheet_print_ru.png)

@@ -33,6 +33,13 @@ It looks like this:
 - Simple transformations in disassembler view [source code](https://github.com/inforion/idapython-cheatsheet/blob/master/listing/disasm_transform.py) 
 - Make comment to function, using it's argument [source code](https://github.com/inforion/idapython-cheatsheet/blob/master/listing/function_arguments.py) 
 
+### Types
+- Apply types to functions and data [source code](https://github.com/inforion/idapython-cheatsheet/blob/master/types/apply_types.py) 
+- Work with enums [source code](https://github.com/inforion/idapython-cheatsheet/blob/master/types/enums.py) 
+
+### Xrefs
+- Add simple code and data cross-references [source code](https://github.com/inforion/idapython-cheatsheet/blob/master/xrefs/simple_xrefs.py) 
+
 ### Miscellaneous
 - Parsing Global Descriptor Table (GDT, x86) [source code](https://github.com/inforion/idapython-cheatsheet/blob/master/misc/parse_gdt.py)
 - Parsing Interrupt Descriptor Table (IDT, x86) [source code](https://github.com/inforion/idapython-cheatsheet/blob/master/misc/parse_idt.py)
@@ -40,4 +47,6 @@ It looks like this:
 ## Links
 
 - ["The Beginner's Guide to IDAPython" by Alexander Hanel](https://leanpub.com/IDAPython-Book)
+- ["Introduction to IDAPython" by Ero Carrera](https://github.com/cyphunk/sectk/blob/master/docs/Software_RE/Ero-Introduction%20to%20IDAPython.pdf)
+- [IDAPyHelper - script that helps writing IDAPython scripts and plugins](https://github.com/patois/IDAPyHelper)
   

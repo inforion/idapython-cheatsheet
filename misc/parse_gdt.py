@@ -38,10 +38,10 @@ def parse_GDT_table(start_ea, end_ea):
     Usage:
     parse_IDT_table(0x0011D7E8, 0x0011D940)       # GDT
     '''
-    for n, ea in enumerate(xrange(start_ea, end_ea, 8), 0):
-        record = GetManyBytes(ea, 8)
+    for n, ea in enumerate(range(start_ea, end_ea, 8), 0):
+        record = idc.get_bytes(ea, 8)
         base, acc = parse_GDT_record(record)
         
-        MakeComm(ea, "0x{:02x} |0x{:04x}| {}".format(n, n*8, base))
-        MakeComm(ea+4, acc + '\n')
+        idc.set_cmt(ea, "0x{:02x} |0x{:04x}| {}".format(n, n*8, base), 0)
+        idc.set_cmt(ea+4, acc + '\n', 0)
             
